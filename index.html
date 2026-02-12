@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda-pop Registration</title>
+   <link rel="stylesheet" href="Reg_Form.css">
+    <script src="Reg_Form.js"></script>
+</head>
+
+<body>
+    <form id="registration-form">
+        <h1>My Little Soda-pop Registration</h1>
+        <p>This is a registration to be my little sodapop.</p>
+        <p>Please fill all necessary information.</p>
+        <br>
+
+        <div class="input-control">
+            <label for="first-name">Enter your First Name:</label><br>
+            <input type="text" id="first-name" name="first-name">
+            <div class="error"></div>
+        </div>
+        <br><br>
+
+        <div class="input-control">
+            <label for="last-name">Enter your Last Name:</label><br>
+            <input type="text" id="last-name" name="last-name">
+            <div class="error"></div>
+        </div>
+        <br><br>
+
+        <div class="input-control">
+            <label for="email">Enter your Email:</label><br>
+            <input type="text" id="email" name="email">
+            <div class="error"></div>
+        </div>
+        <br><br>
+
+        <div class="input-control">
+            <label for="contact">Enter your Contact Number:</label><br>
+            <input type="tel" id="contact" name="contact" placeholder="e.g., 09123456789">
+            <div class="error"></div>
+        </div>
+        <br><br>
+
+        <div class="input-control">
+            <label for="bday">Enter your Date of Birth:</label><br>
+            <input type="date" id="bday" name="bday">
+            <div class="error"></div>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+
+        <h2 id="result-message"></h2>
+        <p id="result-percent"></p>
+    </form>
+
+    
+</body>
+
+</html>
